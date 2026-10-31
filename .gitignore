@@ -1,0 +1,16 @@
+/.env
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+notebooks/
+tests/
+venv/
+.pytest_cache/
+downloaded_files/
+context/
+Dockerfile
+utils/
+graph_methods/loader.py
+graph_methods/comp_graph_selbst.py
+.DS_Store

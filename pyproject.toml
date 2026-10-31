@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kep"
+version = "0.1.0"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["gurobipy", "networkx"]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter"]
+
+[tool.setuptools]
+packages = ["src", "graph_methods"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
